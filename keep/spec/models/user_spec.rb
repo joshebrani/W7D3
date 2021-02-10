@@ -36,4 +36,13 @@ RSpec.describe User, type: :model do
       expect(User.find_by_credentials("Joh", "12345678")).to eq(nil)
     end
   end
+
+  describe "reset_session_token!" do
+    it "resets session_token" do
+      user.valid?
+      old_session_token = user.session_token
+      new_session_token = user.reset_session_token!
+      expect(old_session_token).to_not eq(new_session_token)
+    end
+  end
 end

@@ -1,0 +1,15 @@
+current directory: /Users/nyannaing/Documents/app_academy/AAClasswork/W7D3/keep/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+/Users/nyannaing/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20210210-12327-oudrlg.rb extconf.rb
+creating Makefile
+
+current directory: /Users/nyannaing/Documents/app_academy/AAClasswork/W7D3/keep/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/nyannaing/Documents/app_academy/AAClasswork/W7D3/keep/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/nyannaing/Documents/app_academy/AAClasswork/W7D3/keep/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20210210-12327-t45xl5

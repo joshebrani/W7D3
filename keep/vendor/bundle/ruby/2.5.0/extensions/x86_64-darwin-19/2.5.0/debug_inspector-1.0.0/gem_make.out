@@ -1,0 +1,15 @@
+current directory: /Users/nyannaing/Documents/app_academy/AAClasswork/W7D3/keep/vendor/bundle/ruby/2.5.0/gems/debug_inspector-1.0.0/ext/debug_inspector
+/Users/nyannaing/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20210210-12327-2ii4o2.rb extconf.rb
+creating Makefile
+
+current directory: /Users/nyannaing/Documents/app_academy/AAClasswork/W7D3/keep/vendor/bundle/ruby/2.5.0/gems/debug_inspector-1.0.0/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/nyannaing/Documents/app_academy/AAClasswork/W7D3/keep/vendor/bundle/ruby/2.5.0/gems/debug_inspector-1.0.0/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/nyannaing/Documents/app_academy/AAClasswork/W7D3/keep/vendor/bundle/ruby/2.5.0/gems/debug_inspector-1.0.0/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20210210-12327-49m9sl
